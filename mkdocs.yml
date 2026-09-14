@@ -1,0 +1,65 @@
+site_name: "APS1 — EDA: Adult Income Census"
+site_description: "Análise Exploratória de Dados do dataset Adult Income Census"
+site_author: "Hector Mathias e Giovanni Rodrigues"
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Início: index.md
+  - "1. Inspeção Inicial": 01-inspecao-inicial.md
+  - "2. Análise Univariada": 02-analise-univariada.md
+  - "3. Análise Bivariada e Multivariada": 03-analise-bivariada-multivariada.md
+  - "4. Pré-processamento": 04-preprocessamento.md
+  - "5. Conclusões": 05-conclusoes.md
+  - "6. Referências": 06-referencias.md
+  - "Rubrica x Entrega": rubrica.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - footnotes
+
+extra:
+  social: []
+
+copyright: "APS1 — Membros: Hector Mathias e Giovanni Rodrigues"
