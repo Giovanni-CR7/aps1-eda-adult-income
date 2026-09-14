@@ -24,9 +24,7 @@ A análise está organizada em cinco etapas, seguindo a mesma estrutura do noteb
 | [3. Análise Bivariada e Multivariada](03-analise-bivariada-multivariada.md) | Correlações, scatter plots, relações categórica × `income` e numérica × categórica |
 | [4. Pré-processamento](04-preprocessamento.md) | Split treino/teste, tratamento de ausentes e outliers, encoding, padronização, PCA e pipeline final |
 | [5. Conclusões](05-conclusoes.md) | Síntese dos principais achados e recomendações para a modelagem |
-| [6. Referências](06-referencias.md) | Fontes e materiais de apoio utilizados no projeto |
 
-Também disponibilizamos uma página de [**Rubrica × Entrega**](rubrica.md), mapeando cada requisito solicitado ao ponto correspondente desta documentação.
 
 ## Visão geral do dataset
 

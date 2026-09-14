@@ -40,8 +40,6 @@ nav:
   - "3. Análise Bivariada e Multivariada": 03-analise-bivariada-multivariada.md
   - "4. Pré-processamento": 04-preprocessamento.md
   - "5. Conclusões": 05-conclusoes.md
-  - "6. Referências": 06-referencias.md
-  - "Rubrica x Entrega": rubrica.md
 
 markdown_extensions:
   - admonition
